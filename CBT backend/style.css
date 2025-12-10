@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #1d4f73;
+}
+
+/* Center Pages */
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login & Signup Box */
+.login-box {
+    background: #1f5f8b;
+    padding: 30px;
+    width: 300px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background: orange;
+    border: none;
+    margin-top: 15px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* TOP HEADER */
+.topbar {
+    background: #143d59;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+}
+
+/* LAYOUT */
+.container {
+    display: flex;
+    height: calc(100vh - 70px);
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 260px;
+    background: #184e77;
+    padding: 25px;
+    color: white;
+}
+
+.sidebar button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #1a5a8a;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+/* DASHBOARD */
+.dashboard {
+    flex: 1;
+    padding: 40px;
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    gap: 30px;
+}
+
+.card {
+    background: #1f5f8b;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid orange;
+    display: block;
+    text-decoration: none;
+}
+
+.card .icon {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
