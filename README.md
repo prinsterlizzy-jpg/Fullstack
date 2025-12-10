@@ -1,4 +1,6 @@
-ct Banner](https://github.com/prinsterlizzy-jpg/Fullstack/blob/main/Images/IMG_5654.jpeg?raw=true)
+# CBT Dashboard Project
+
+![Project Banner](https://github.com/prinsterlizzy-jpg/Fullstack/blob/main/Images/IMG_5654.jpeg?raw=true)
 
 ---
 
